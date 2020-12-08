@@ -1,0 +1,30 @@
+.footer {
+    text-align: center;
+   
+    &__img {
+        width: 25px;
+        margin: 0px 10px;
+        text-decoration: none;
+    
+        @media screen and (min-width: 570px) {
+            width: 20px;
+            margin: 0px 5px;
+        }
+    }
+    
+    &__link {
+        text-decoration: none;
+    }
+    
+    &__img--envelope-bigger {
+        width: 30px;
+        
+        @media screen and (min-width: 570px) {
+            width: 25px;
+            margin: 0px 5px;
+        } 
+    }
+      
+}
+
+

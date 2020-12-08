@@ -1,0 +1,27 @@
+---
+layout: layouts/sablona.njk
+title: Zajímá vás
+menu: faq
+---
+
+
+<div class="flexbox u-margin-middle u-margin-top">
+    <ul class="list-of-FAQ">
+        <div class="list-of-FAQ--position-sticky">
+        {% for faq in faq %}
+            <li class="list-of-FAQ__item">
+                <a class="u-link-text" href="#{{ faq.id }}">{{ faq.question }}</a>
+            </li>
+        {% endfor %}
+        </div>
+    </ul>
+
+    <div class="FAQ">
+        {% for faq in faq %}
+            <article id="{{ faq.id }}"> 
+            <h3 class="FAQ__question">{{ faq.question }}</h3>
+            <p class="FAQ__answer">{{ faq.answer | safe }}</p>
+            </article>
+        {% endfor %}
+    </div>
+</div>

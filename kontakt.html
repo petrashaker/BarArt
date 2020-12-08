@@ -1,0 +1,65 @@
+---
+layout: layouts/sablona.njk
+title: Kontakt
+menu: kontakt
+---
+<div class="text">
+    <p>Velice mě těší váš zájem o mé obrazy. </p>
+    <p>Chcete si <strong><a class="u-link-text" href="/cenik/objednavka">objednat obraz</a></strong>? Nenašli jste <strong><a class="u-link-text" href="/zajima-vas">odpověď na vaši otázku</a></strong>? Prosím, napište mi. </p>
+</div>
+
+
+<form class="form u-margin-middle" method="post" action="https://submit-form.com/pO3x8HGt">
+    <div class="form-field">
+        <label class="form-field__label" for="jmeno">Jméno a příjmení</label>
+        <input class="form-field__input" type="text" name="jmeno" id="jmeno" required>
+    </div>
+
+    <div class="form-field">
+        <label class="form-field__label" for="email">E-mail</label>
+        <input class="form-field__input" type="email" name="email" id="email" placeholder="@" required>
+    </div>
+
+    <div class="form-field">
+        <label class="form-field__label" for="zprava">Vaše zpráva</label>
+        <textarea class="form-field__textarea" name="zprava" id="zprava" cols="30" rows="10"></textarea>
+    </div>
+
+    <button class="button button--position-contact" type="submit">Odeslat</button>
+
+    <input
+    type="hidden"
+    name="_redirect"
+    value="localhost:8080/kontakt/zprava"
+    />
+</form>
+
+<div class="space"></div>
+
+<div class="contact">
+    <div class="u-margin-bottom">
+        <div class="contact__line">
+            <img class="contact__icon" src="/logos/envelope-solid.svg" alt="email_BarArt">    
+            <i class="fas fa-envelope"></i>
+            <a class="contact__link" href="mailto:barart.art@gmail.com">barart.art@gmail.com</a>
+        </div>
+        <div class="contact__line">
+            <img class="contact__icon" src="/logos/phone-alt-solid.svg" alt="phone_BarArt">
+            <i class="fas fa-phone-alt"></i>
+            <a class="contact__link" href="tel:00420737389672 ">+420 737 389 672</a>
+        </div>
+    </div>
+
+
+    <article class="address">
+        <p class="address__par">Barbora Asformas</p> 
+        <p class="address__par">Budečská 816/4</p> 
+        <p class="address__par">120 00 Praha 2</p> 
+        <p class="address__par">IČ: 11111111</p> 
+        <p class="address__par">Bankovní účet: 238373851 / 0300</p> 
+    </article>
+</div>
+
+<article class="note">   
+    <p>Sledujte mě také na <a class="u-link-text" href="https://www.facebook.com/BarboraAsformas">facebooku</a> a <a class="u-link-text" href="https://www.instagram.com/bar.a.rt/?hl=cs">instagramu</a>, kam pravidelně vkládám novinky o své práci.</p>
+</article>

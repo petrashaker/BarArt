@@ -1,0 +1,55 @@
+[
+    {
+        "question": "Jakou zvolit fotografii jako předlohu pro obraz?",
+        "answer": "Výběr fotografie, která bude předlohou obrazu, je opravdu to nejdůležitější. Na obrazu se snažím zachytit co nejvíce detailů, proto by měla být fotografie kvalitní a ostrá ve vysokém rozlišení. Pokud máte mezi fotografiemi více favoritů, prosím zašlete mi všechny. S výběrem té nejlepší vám ráda pomohu. Zároveň budu ráda, pokud mi o svých domácích mazlíčcích napíšete pár řádek. Cokoliv, co budu vědět o jejich povaze, mi pomůže zachytit jejich skutečnou podobu.",
+        "id": "q-01"
+    },
+    {
+        "question": "Jak bude vypadat hotové dílo?",
+        "answer": "Je důležité zmínit, že hotový obraz zvířete nebude vypadat jako fotka. Chci tím říci, že obraz nebude nikdy do detailů naprosto stejný jako vaše zvíře ve skutečnosti. Každý umělec dává do svého díla kus sebe, kus své duše. Umělec do obrazu promítá svou vizi vašeho zvířete. Někteří kreslíři fotografii vytisknou a obkreslí pomocí prosvětlovací desky nebo grafitového papíru a následně vykreslují srst. Já kreslím celý obraz podle toho, jak vidím a vnímám zvíře na fotografii. Nic neobkresluji. Ukázku mé práce naleznete v sekci <a class=\"u-link-text\" href=\"/portfolio\">Portfolio</a>.",
+        "id": "q-02"
+    },
+    {
+        "question": "Je možné objednat obraz s více zvířaty?",
+        "answer": "Samozřejmě. Pokud chcete mít na jednom obrazu více zvířátek, ale nemáte je všechny na jedné fotografii, nevadí. I s tímto si umím poradit. Zašlete mi více fotografií jednotlivých mazlíčků a já je spojím do kompozice, kterou vám před samotnou realizací obrazu předložím ke schválení.",
+        "id": "q-03"
+    },
+    {
+        "question": "Je možné objednat obraz s jakýmkoliv zvířetem?",
+        "answer": "Ano. Ráda namaluji vašeho psího parťáka, nejmilejší ovečku ze stáda nebo včelu, kterou se vám podařilo zachytit při sběru nektaru.",
+        "id": "q-04"
+
+    },
+    {
+        "question": "A co portrét rodiny nebo automobilu?",
+        "answer": "Vaše přání a vize si ráda přečtu ve <a class=\"u-link-text\" href=\"/kontakt\">zprávě</a> a společně prodiskutujeme, jak moc dokáži vaši představu zhmotnit. Ráda uvítám i vaše návrhy, nápady a představy",
+        "id": "q-05"
+    },
+    {
+        "question":"Jak velký bude finální obraz?",
+        "answer":"V případě jednoho zvířete doporučuji velikost 20 × 30 cm, nebo 30 × 40 cm. U více zvířat pak 30 × 40 cm. Pokud byste měli zájem o obraz v jiné velikosti či větší skupiny zvířat, ráda pro vás vytvořím individuální kalkulaci.",
+        "id": "q-06"
+    },
+    {
+        "question":"Jak dlouho trvá namalování obrazu?",
+        "answer":"Práce na obrazu standardně trvá dva až osm týdnů. Konkrétní termín dodání vám sdělím při objednávce. Pokud potřebujete obraz rychleji třeba jako dárek, určitě mě informujte. Pakliže to bude v mých silách, pokusím se vám vyjít vstříc.",
+        "id": "q-07"
+    },
+    {
+        "question":"Jakou technikou je obraz namalován?",
+        "answer":"Nejraději maluji akvarelem a kreslím pastelkami. Váš obraz bude kombinací obou technik. To, zda bude převažovat akvarel nebo pastelky, hodnotím vždy podle konkrétní fotky a zvířete. K některým zvířatům se hodí více akvarel, k jiným zase pastelky.",
+        "id": "q-08"
+    },
+    {
+        "question":"Proč zrovna akvarel a pastelky?",
+        "answer":"Akvarel a pastelky se velmi dobře doplňují. Pomocí pastelek můžu do své akvarelové malby přidávat detaily. Nebo naopak namaluji pozadí akvarelem a hlavní předmět nakreslím pastelkami. Akvarel si mě získal svou lehkostí a jemností, které pomocí jiných technik nelze dosáhnout tak, jak si představuji. Fascinuje mě práce s takovým množstvím vody, která se vpíjí do papíru, a nabízí tak spousty možností, jak s malbou dále pracovat. Jednotlivé barvy pastelek se také dají vrstvit na sebe, a vznikají tak další barevné odstíny.",
+        "id": "q-09"
+    },
+    {
+        "question":"Jak probíhá předání finálního obrazu?",
+        "answer":"Po dokončení a schválení portrétu obraz zašlu přes Českou poštu jako balík do ruky. V případě zájmu si můžete portrét vyzvednout také osobně na Praze 2.",
+        "id": "q-10"
+    }
+]
+
+

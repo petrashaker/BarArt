@@ -1,0 +1,33 @@
+.figure {
+    max-width: 1090px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    }
+   
+
+
+.pic-creation {
+        flex: 0 1 350px;
+        font-size: 16px;
+        margin: 0px;
+
+    @media screen and (min-width: 570px) {
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: 990px) {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+ }
+
+
+ 

@@ -1,0 +1,81 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 990px) {
+        max-width: 1090px;  
+        display: flex;  
+        flex-direction: row;
+        flex: 0 1 auto;     
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    &__image {
+        max-width: 200px;
+        position: relative;
+        left: 50%;
+        margin-left: -100px;
+        margin-top: 30px;
+        box-shadow: $img-shadow;
+        order: 1;
+    
+        @media screen and (min-width: 570px) {
+            max-width: 300px;
+            margin-left: 0px;
+            position: relative;
+            left: 50%;
+            margin-left: -150px;
+            margin-top: 0px;
+        }
+        
+        @media screen and (min-width: 990px) {
+            position: static;
+            max-width: 350px;
+            order: 1;
+            margin-left: 0px;
+        }
+    }
+
+    &__article {
+        max-width: 250px;
+        margin: 10px auto 20px auto;
+        text-align: left;
+        order: 2;
+        
+        @media screen and (min-width: 570px) {
+            max-width: 300px;
+    
+        }
+    
+        @media screen and (min-width: 990px) {
+            order: 2;
+            max-width: 350px;
+            margin: auto 20px; 
+        }
+    }
+ }
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+
+    &__column-1 {
+        order: 2;
+    }
+
+    &__column-2 {
+        order: 1;
+    }
+
+    @media screen and (min-width: 990px) {
+        &__column-1 {
+            order: 1;
+        }
+    
+        &__column-2 {
+            order: 2;
+        }
+    }
+
+}

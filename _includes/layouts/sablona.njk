@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <title>BarArt</title>
+</head>
+<body class="body">
+   <a class="header" href="/">
+    <header class="logo u-margin-bottom">
+        <img class="logo__img" src="/images/Liska_ctverec_small.jpg" alt="logo">
+        <p class="logo__name">BarArt</p>
+    </header>
+    </a>
+   
+    <nav class="menu">
+        <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+		<label for="menu-checkbox" class="menu__toggler">☰ Menu</label>
+        <ul class="menu__list u-margin-bottom u-margin-middle">  
+            <li class="menu__item"> <a class="menu__link {% if menu === 'uvod' %} menu__link--active {% endif %}" href="/">Úvod</a> </li>
+            <li class="menu__item"> <a class="menu__link {% if menu === 'portfolio' %} menu__link--active {% endif %}"  href="/portfolio">Portfolio</a> </li>
+            <li class="menu__item"> <a class="menu__link {% if menu === 'cenik' %} menu__link--active {% endif %} {% if menu === 'objednavka' %} menu__link--active {% endif %} {% if menu === 'podekovani' %} menu__link--active {% endif %}"  href="/cenik">Ceník</a> </li>
+            <li class="menu__item"> <a class="menu__link {% if menu === 'jak-tvorim' %} menu__link--active {% endif %}"  href="/jak-tvorim">Jak tvořím</a> </li>
+            <li class="menu__item"> <a class="menu__link {% if menu === 'o-mne' %} menu__link--active {% endif %}"  href="/o-mne">O mně</a> </li>
+            <li class="menu__item"> <a class="menu__link {% if menu === 'faq' %} menu__link--active {% endif %}"  href="/zajima-vas">Zajímá vás</a> </li>
+            <li class="menu__item"> <a class="menu__link {% if menu === 'kontakt' %} menu__link--active {% endif %} {% if menu === 'zprava' %} menu__link--active {% endif %}"  href="/kontakt">Kontakt</a> </li>
+        </ul>
+    </nav>
+
+    {{ content | safe }}
+
+    <footer class="footer u-margin-footer">
+        <a class="footer__link" href="https://www.facebook.com/BarboraAsformas">
+            <img class="footer__img" alt="Facebook_BarArt" src="/logos/facebook-square-brands.svg">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        
+        <a class="footer__link" href="https://www.instagram.com/bar.a.rt/?hl=cs">
+            <img class="footer__img" alt="Instagram_BarArt" src="/logos/instagram-brands.svg">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a class="footer__link" href="mailto:barart.art@gmail.com">
+            <img class="footer__img footer__img--envelope-bigger" src="/logos/envelope-solid.svg" alt="email_BarArt">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </footer>
+
+</body>
+</html>

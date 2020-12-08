@@ -1,0 +1,41 @@
+.FAQ__question{
+    margin: 0px 0px 10px 0px;
+}
+
+.FAQ__answer {
+    margin: 0px 0px 30px 0px;
+}
+
+.list-of-FAQ {
+    display: none;
+    padding-left: 0px;
+
+    @media screen and (min-width: 990px) {
+        display: block;
+        flex: 1 1 calc(40% - 20px);
+        margin-top: 0px;
+    }
+}
+
+.list-of-FAQ__item {
+    display: block;
+    margin: 0px 20px 10px 0px;
+}
+
+.FAQ {
+    margin: auto;
+
+    @media screen and (min-width: 570px) {
+        max-width: 600px;
+    }
+
+    @media screen and (min-width: 990px) {
+        flex: 0 1 60%;
+    }
+}
+
+.list-of-FAQ--position-sticky {
+    position: sticky;
+    top: 0;
+}
+

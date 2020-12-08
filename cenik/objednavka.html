@@ -1,0 +1,115 @@
+---
+layout: layouts/sablona.njk
+title: Objednávka
+menu: objednavka
+---
+
+<form class="form u-margin-middle" method="post" action="https://submit-form.com/oIK4CuCd" onchange="zmenaFormulare(this)">
+    <h1 class="h1">Objednávka obrazu</h1>
+    <article class="text">
+        <p>Zprávu ode mne očekávejte do druhého pracovního dne od odeslání objednávky. Informuji vás o termínu vyhotovení a zašlu vám platební údaje k úhradě zálohy ve výši 50 % ceny obrazu. Poté spolu vybereme fotografii, podle které namaluji váš obraz.</p>
+    </article>
+    <fieldset class="fieldset">
+        <legend class="fieldset__legend">Objednávka</legend>
+​
+        <div class="order-options">
+            
+            <div>
+                <input type="radio" id="jedna" name="objednavka" value="jedna" checked>
+                <label for="jedna">Jedna hlava</label>
+            </div>
+            <div class="order-options__2">
+                <input type="radio" id="dve" name="objednavka" value="dve">
+                <label for="dve">Dvě hlavy</label>
+            </div>
+            <div class="order-options__3">
+                <input type="radio" id="tri" name="objednavka" value="tri">
+                <label for="tri">Tři hlavy</label>
+            </div>
+            
+            <div class="order-options__size">
+                <div>
+                    <input type="radio" id="mensi" name="velikost" value="mensi" checked>
+                    <label for="mensi">Menší 20 × 30cm</label>
+                </div>
+                <div>
+                    <input type="radio" id="vetsi" name="velikost" value="vetsi">
+                    <label for="vetsi">Vetší 30 × 40cm</label>
+                </div>
+            </div>
+​                
+            <div class="order-options__cena">Cena:</div>
+            <div class="order-options__price" id="cena">
+                1 300 Kč
+            </div>
+        </div>
+        <p class="fieldset__note">Poznámka: Ceny jsou uvedeny bez poštovného a balného.</p>
+​        </fieldset>
+
+    <fieldset class="fieldset"> 
+        <legend class="fieldset__legend">Jméno a příjmení</legend>    
+        <div class="form-field">
+            <label class="form-field__label" for="jmeno">Křestní jméno</label>
+            <input class="form-field__input" type="text" name="jmeno" id="jmeno" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-field__label" for="jmeno">Příjmení</label>
+            <input class="form-field__input" type="text" name="prijmeni" id="prijmeni" required>
+        </div>
+    </fieldset>
+
+    <fieldset class="fieldset"> 
+        <legend class="fieldset__legend">Kontaktní údaje</legend>
+        <div class="form-field">
+            <label class="form-field__label" for="email">E-mail</label>
+            <input class="form-field__input" type="email" name="email" id="email" placeholder="@" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-field__label" for="telefon">Telefonní číslo</label>
+            <input class="form-field__input" type="tel" name="telefon" id="telefon" placeholder="+420 XXX XXX XXX" required>
+        </div>
+    </fieldset>
+
+
+    <fieldset class="fieldset"> 
+        <legend class="fieldset__legend">Adresa</legend>
+        <div class="form-field">
+            <label class="form-field__label" for="ulice">Ulice</label>
+            <input class="form-field__input" type="text" name="ulice" id="ulice" required>
+        </div>
+        
+        <div class="form-field">
+            <label class="form-field__label" for="cislo_popisne">Číslo popisné</label>
+            <input class="form-field__input" type="number" name="cislo_popisne" id="cislo_popisne" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-field__label" for="mesto">Město</label>
+            <input class="form-field__input" type="text" name="mesto" id="mesto" required>
+        </div>
+    
+        <div class="form-field">
+            <label class="form-field__label" for="psc">PSČ</label>
+            <input class="form-field__input" type="number" name="psc" id="psc" required>
+        </div>
+    </fieldset>
+
+    <fieldset class="fieldset">
+        <legend class="fieldset__legend">Máte něco dalšího na srdci?</legend>
+        <textarea class="fieldset__textarea" name="vzkaz" id="vzkaz" cols="30" rows="10" placeholder="Sem mi prosím napište informace o vašem mazlíčkovi, abych jeho povahu mohla v obraze vystihnout co nejlépe. Děkuji, Bára."></textarea>
+    </fieldset>
+
+    <button class="button button--position-order" type="submit">Odeslat objednávku</button>
+    
+    <!-- přesměrování dotazníku na vlastní děkovací stránku -->   
+    <input
+    type="hidden"
+    name="_redirect"
+    value="localhost:8080/cenik/objednavka/podekovani"
+    />
+
+</form>
+
+<script src="/js/radiobutton-order.js"></script>

@@ -1,0 +1,61 @@
+.button {
+    color: white;
+    background-color: $c-primary;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: $font-primary;
+    cursor: pointer;
+    box-shadow: $button-shadow;
+    border: 0px;
+    
+    
+
+    @media screen and (min-width: 570px) {
+        font-size: 20px;  
+    }
+
+    @media screen and (min-width: 990px) {
+        font-size: 22px;  
+    }
+
+    &__link {
+        text-decoration:none;
+    }
+    
+    &__link:link,
+    &__link:visited {
+        color: white;
+    }
+}
+
+.button--position-contact {
+    position: relative;
+    left: calc(100% - 116.92px);
+
+    @media screen and (min-width: 570px) { 
+        left: calc(100% - 125.03px);
+    }
+
+    @media screen and (min-width: 990px) {  
+        left: calc(100% - 133.13px);
+    }
+
+}
+
+.button--position-order {
+    position: relative;
+    left: calc(100% - 233.77px);
+
+    @media screen and (min-width: 570px) { 
+        left: calc(100% - 254.84px);
+    }
+
+    @media screen and (min-width: 990px) {  
+        left: calc(100% - 275.94px);
+    }
+
+}

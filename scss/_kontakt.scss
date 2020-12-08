@@ -1,0 +1,40 @@
+.contact {
+    max-width: 350px;
+    margin: 20px 0px;
+
+    @media screen and (min-width: 615px) {
+        max-width: 750px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        flex: 1 0 auto;
+    }
+
+    &__icon {
+        width: 0.8em;
+    }
+    
+    &__line {
+        display: block;
+    
+        @media screen and (min-width: 570px) {
+            flex: 0 0 calc((100% - 20px) / 2);
+        }
+    }
+    
+    &__link {
+        color: $c-primary;
+    }
+}
+
+.address {
+    line-height: 1.5;
+}
+
+.address__par {
+    margin: 5px 0px;
+}
+
+.space {
+    padding: 30px;
+}

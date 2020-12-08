@@ -1,0 +1,28 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        border: 0px none white;
+        border-radius: 50%;
+        width: 150px;
+        margin: 0px auto;
+    }
+    
+    &__name {
+        font-family: 'Dancing Script', cursive;
+        font-size: 32px;
+        border: 0px none white;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        color: $c-primary;
+        margin: 0px auto;
+        
+    
+    }
+}
+
+.header{
+    text-decoration: none;
+}

@@ -1,0 +1,103 @@
+.menu__checkbox {
+    position: absolute;
+    left: -999999px;
+}
+
+.menu__list {
+    text-align: center;
+    padding: 0;
+    width: 200px;
+    display: none;
+
+    @media screen and (min-width: 570px) {
+        width: 500px;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 990px) {
+        width: 950px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 0 1 auto;
+        margin: 0 auto;
+    
+    }
+}
+
+.menu__item { 
+    display: block;  
+    margin: 10px auto;
+
+    @media screen and (min-width: 570px) {
+        margin-top: 0;  
+    }
+
+    @media screen and (min-width: 990px) {
+        justify-content: space-evenly;
+        margin: 0;  
+    }
+
+    &--active:hover {
+        background-color: $c-menu-active;
+    }
+
+}
+
+
+.menu__link {
+    text-decoration: none;
+    color: $c-menu;
+    font-size: 16px;
+    border: 0px none white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 5px 5px;
+
+    @media screen and (min-width: 990px) {
+                font-size: 20px;
+             }
+
+    &--active {
+    background-color:$c-menu-panding;
+    font-size: 20px;
+    position: relative;
+    bottom: 10%;
+    color: $c-font-menu-active;
+    font-weight: bold;
+
+        @media screen and (min-width: 990px) {
+            font-size: 24px;
+        }
+    }
+
+    &:hover {
+        color: $c-menu;
+        background-color: #e3fffc;
+        position: relative;
+        bottom: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 569px) {
+    .menu__checkbox:checked ~ .menu__list {
+        display: block;
+    }
+}
+
+.menu__toggler {
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    margin-left: -32.5px;
+
+    @media screen and (min-width: 570px) {
+        display: none;
+    }
+    
+}
+

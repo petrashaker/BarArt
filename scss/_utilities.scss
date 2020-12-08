@@ -1,0 +1,50 @@
+.u-margin-footer {
+    margin-top: 100px;
+}
+
+.u-margin-bottom {
+    margin-bottom: 30px;
+}
+
+
+.u-margin-top {
+    margin-top: 20px;
+}
+
+.u-margin-middle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// používám pro paragraph, jednou pro h3
+.u-margin-par {
+    margin: 10px 0px;
+}
+
+.u-link-text {
+    color: $c-primary;
+}
+
+.u-link-text:link,
+.u-link-text:visited {
+    color: $c-primary;
+}
+
+.u-font-change {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+
+    @media screen and (min-width: 570px) {
+        font-size: 22px;
+    }
+
+    @media screen and (min-width: 990px) {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .u-h-margin-top-zero {
+        margin-top: 0px;
+    }
+}
