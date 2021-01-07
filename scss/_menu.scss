@@ -17,7 +17,7 @@
     }
 
     @media screen and (min-width: 990px) {
-        width: 950px;
+        width: 900px;
         display: flex;
         flex-wrap: nowrap;
         flex: 0 1 auto;
@@ -62,15 +62,9 @@
 
     &--active {
     background-color:$c-menu-panding;
-    // font-size: 20px;
     position: relative;
     bottom: 10%;
     color: $c-font-menu-active;
-    // font-weight: bold;
-
-        @media screen and (min-width: 990px) {
-            // font-size: 24px;
-        }
     }
 
     &:hover {
