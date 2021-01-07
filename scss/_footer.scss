@@ -24,6 +24,14 @@
             margin: 0px 5px;
         } 
     }
+
+    &__copy {
+        text-decoration: none;
+        font-size: 0.5em;
+        color: $c-menu;
+        display: block;
+        padding-top: 30px;
+    }
       
 }
 
