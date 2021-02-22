@@ -981,10 +981,6 @@ html {
   }
 }
 
-.menu__item--active:hover {
-  background-color: #e3fffc;
-}
-
 .menu__link {
   text-decoration: none;
   color: #1b1b1b;
