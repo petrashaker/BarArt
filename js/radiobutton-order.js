@@ -33,7 +33,7 @@ function zmenaFormulare(formular) {
     document.querySelector('#great').disabled = false
   }
   
-  let cena = 'Zvolte počet hlav.'
+  let cena = 'Zvolte velikost'
   if (pocet === 'jedna') {
     if (velikost === 'mini') cena = '1 500 Kč'
     if (velikost === 'small') cena = '2 000 Kč'
