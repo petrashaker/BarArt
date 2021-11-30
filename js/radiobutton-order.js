@@ -2,7 +2,7 @@ function zmenaFormulare(formular) {
   const pocet = formular.objednavka.value
   const velikost = formular.velikost.value
   if (pocet === 'jedna' && velikost === 'medium') {
-    document.querySelector('#medium').disabled = false
+    // document.querySelector('#medium').disabled = false
   } else if(pocet === 'jedna' && velikost === 'mini') {
     document.querySelector('#mini').checked = true
   } else if(pocet === 'jedna' && velikost === 'small') {
@@ -17,12 +17,7 @@ function zmenaFormulare(formular) {
     document.querySelector('#medium').disabled = false
     document.querySelector('#big').disabled = true
     document.querySelector('#great').disabled = false
-    // document.querySelector('#medium').checked = true
   } else if (pocet === 'dve' || pocet === 'tri' && velikost === 'great') {
-    document.querySelector('#mini').disabled = true
-    document.querySelector('#small').disabled = true
-    document.querySelector('#medium').disabled = false
-    document.querySelector('#big').disabled = true
     document.querySelector('#great').checked = true
   } else if (pocet === 'jedna') {
     document.querySelector('#mini').disabled = false
@@ -38,7 +33,7 @@ function zmenaFormulare(formular) {
     document.querySelector('#great').disabled = false
   }
   
-  let cena = 0
+  let cena = 'Zvolte počet hlav.'
   if (pocet === 'jedna') {
     if (velikost === 'mini') cena = '1 500 Kč'
     if (velikost === 'small') cena = '2 000 Kč'
