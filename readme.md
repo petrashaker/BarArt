@@ -1,0 +1,1 @@
+Open project by cmd: npx @11ty/eleventy --serve

@@ -35,14 +35,14 @@ function zmenaFormulare(formular) {
   
   let cena = 'Zvolte velikost'
   if (pocet === 'jedna') {
-    if (velikost === 'mini') cena = '1 500 Kč'
-    if (velikost === 'small') cena = '2 000 Kč'
-    if (velikost === 'medium') cena = '2 800 Kč'
-    if (velikost === 'big') cena = '3 000 Kč'
+    if (velikost === 'mini') cena = '2 000 Kč'
+    if (velikost === 'small') cena = '3 500 Kč'
+    if (velikost === 'medium') cena = '4 500 Kč'
+    if (velikost === 'big') cena = '6 000 Kč'
   }
-  if (pocet === 'dve' && velikost === 'medium') cena = '4 000 Kč'
-  if (pocet === 'dve' && velikost === 'great') cena = '6 000 Kč'
-  if (pocet === 'tri' && velikost === 'medium') cena = '5 000 Kč'
-  if (pocet === 'tri' && velikost === 'great') cena = '7 000 Kč'
+  if (pocet === 'dve' && velikost === 'medium') cena = '6 500 Kč'
+  if (pocet === 'dve' && velikost === 'great') cena = '9 000 Kč'
+  if (pocet === 'tri' && velikost === 'medium') cena = '8 500 Kč'
+  if (pocet === 'tri' && velikost === 'great') cena = '12 000 Kč'
   document.querySelector('#cena').innerHTML = cena
 }
